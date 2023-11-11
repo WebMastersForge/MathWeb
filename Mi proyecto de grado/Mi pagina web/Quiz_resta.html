@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examne de resta</title>
+    <link rel="stylesheet" href="css/Evaluacion_y_practicas.css">
+    <link rel="stylesheet" href="css/Estilos_siguiente_quiz.css">
+   <link rel="stylesheet" href="css/js/Quiz.js/Estilos de division/Volver.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+  <!-- botón de inicio de prueba -->
+    
+  <div class="start_btn"><button>Iniciar prueba de resta</button>
+
+
+    
+  </div>
+
+  <!-- Caja de Informacion-->
+  <div class="info_box">
+      <div class="info-title"><span>Algunas reglas de este cuestionario</span></div>
+      <div class="info-list">
+        <div class="info">1. Tendrás solo   <span> 20 segundos</span> por cada pregunta.</div>
+        <div class="info">2. Deber&aacute;s contestar 5 preguntas en esta prueba de resta.</div>
+        <div class="info">3. Una vez que seleccione su respuesta, no se puede deshacer.</div>
+        <div class="info">4. No puede seleccionar ninguna opción una vez que se acaba el tiempo.</div>
+        <div class="info">5. Obtendrás puntos en base a tus respuestas correctas.</div>
+      </div>
+      <div class="buttons">
+          <button class="quit">Salir del Cuestionario</button>
+          <button class="restart">Continuar</button>
+      </div>
+      
+  </div>
+
+  <!-- Cuadro de prueba-->
+  <div class="quiz_box">
+      <header>
+          <div class="title">Quiz sobre resta</div>
+          <div class="timer">
+              <div class="time_left_txt">Tiempo restante</div>
+              <div class="timer_sec">20</div>
+          </div>
+          <div class="time_line"></div>
+      </header>
+      <section>
+          <div class="que_text">
+              <!-- Aquí he insertado una pregunta de JavaScript -->
+          </div>
+          <div class="option_list">
+              <!-- Aquí he insertado opciones de JavaScript -->
+          </div>
+      </section>
+
+      <!-- pie de página de la prueba -->
+      <footer>
+          <div class="total_que">
+              <!-- Aquí he insertado Número de conteo de preguntas de JavaScript -->
+          </div>
+          <button class="next_btn">Siguiente</button>
+      </footer>
+  </div>
+
+  <!-- Result Box -->
+  <div class="result_box">
+      <div class="icon">
+
+          <img src="img/img16.png" class="avatar" alt="">
+
+
+      </div>
+      <div class="complete_text">¡Has completado el cuestionario!</div>
+      <div class="score_text">
+          <!-- Aquí he insertado Score Result de JavaScript-->
+      </div>
+      <div class="buttons">
+          <button class="restart">Cuestionario de repetición</button>
+          <button class="quit">Salir </button>
+      </div>
+  </div>
+  <button id="siguienteQuizButton">Siguiente Quiz</button>
+  <a class="volver-inicio" href="index.html">Ir a la Página Principal</a>
+  <script src="css/js/Quiz.js/Estilos de resta/Estilos_resta.js"></script>
+  <script src="css/js/Quiz.js/Estilos de resta/Pregunta_resta.js"></script>
+  <script src="css/js/Quiz.js/Estilos de resta/siguiente_quiz_resta.js"></script>
+
+    
+</body>
+</html>
